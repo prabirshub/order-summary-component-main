@@ -1,12 +1,5 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-img {
-  max-width: 100%;
-}
+/* Importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 /* Global Color Variables */
 :root {
   /* Primary */
@@ -18,11 +11,44 @@ img {
   --dark-blue: hsl(223, 47%, 23%);
 }
 
-body {
-  font-family: 'Red Hat Display', sans-serif;
-  background: var(--pale-blue);
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+/* Button default */
+button {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+  border: 0;
+}
+
+/* Typography default */
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--desaturated-blue);
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--pale-blue);
+  width: 100%;
+  position: relative;
+}
+
+/* Attribution */
 .attribution {
   font-size: 11px;
   text-align: center;
